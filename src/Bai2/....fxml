@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="928.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane prefHeight="520.0" prefWidth="926.0">
+         <children>
+            <Pane fx:id="setting" layoutX="6.0" layoutY="127.0" prefHeight="385.0" prefWidth="914.0" style="-fx-border-color: rgba(136, 121, 215, 0.5);">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" prefHeight="40.0" prefWidth="89.0" text="Questions">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="103.0" prefHeight="40.0" prefWidth="97.0" text="Categories">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="200.0" prefHeight="40.0" prefWidth="77.0" text="Import">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="277.0" prefHeight="40.0" prefWidth="76.0" text="Export">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane layoutX="5.0" layoutY="44.0" prefHeight="77.0" prefWidth="916.0" style="-fx-border-color: rgba(171, 175, 179, 0.5);">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="2.0" prefHeight="42.0" prefWidth="41.0" text="IT" textAlignment="CENTER" textFill="#e70b0b">
+                     <font>
+                        <Font name="Bauhaus 93" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="44.0" prefHeight="24.0" prefWidth="42.0" text="Home" />
+                  <Label alignment="CENTER" layoutX="65.0" layoutY="44.0" prefHeight="24.0" prefWidth="64.0" text="My course" />
+                  <Label alignment="CENTER" layoutX="138.0" layoutY="44.0" prefHeight="24.0" prefWidth="81.0" text="THI CUỐI KỲ" />
+                  <Label alignment="CENTER" layoutX="54.0" layoutY="44.0" prefHeight="24.0" prefWidth="11.0" text="/" />
+                  <Label alignment="CENTER" layoutX="130.0" layoutY="44.0" prefHeight="24.0" prefWidth="11.0" text="/" />
+               </children>
+            </Pane>
+            <Pane prefHeight="39.0" prefWidth="920.0" style="-fx-background-color: rgb(0,159,229, 1);" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
